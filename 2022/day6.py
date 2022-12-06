@@ -17,4 +17,3 @@ with open('input/day6.txt') as f:
 
     print(f"Start-of-packet marker found after {find_marker(line, 4)} characters received")
     print(f"Start-of-message marker found after {find_marker(line, 14)} characters received")
-
